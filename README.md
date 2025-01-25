@@ -21,3 +21,11 @@
 - https://github.com/calderonf/thermalDiabetestools?tab=readme-ov-file#thermaldiabetestools
 - https://github.com/susanmeerdink/FLIR_thermal_tools
 - https://github.com/andy6804tw/FlirOne/tree/master
+
+20250125 Discussion log: 
+Plan B:
+1.	用原Flir app, 先手動標記flap & control 溫度點
+2.	到一個伺服器or html的網頁，上傳熱影像照片檔，手動輸入溫度值+自動判別的影像RGB data -> 給出prediction  (問問看x-ray analyze)
+3.	Feed back 給予病歷號 和 default(nil); Normal; 缺血; 瘀血 的label.
+4.	標記存入雲端硬碟裡
+
